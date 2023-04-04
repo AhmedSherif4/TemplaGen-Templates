@@ -1,0 +1,37 @@
+{
+  "name": " Scalable app Flutter",
+  "needSubDir": true,
+  "subDirNameCase": "snakeCase",
+  "foldersFilesNamesReplacer": [
+    {
+      "case": "snakeCase",
+      "nameToReplace": "key",
+      "useSubDirName": true
+    }
+  ],
+  "filesContentReplacer": [
+    {
+      "case": "snakeCase",
+      "nameToReplace": "<{key_sc}>",
+      "useSubDirName": true
+    },
+    {
+      "case": "pascalCase",
+      "nameToReplace": "<{key}>",
+      "useSubDirName": true
+    }
+  ],
+  "dirs": {
+    "src": [],
+    "src/application": [],
+    "src/application/exeptions": [],
+    "src/common_widgets": [],
+    "src/features": [],
+    "src/features/splash_screen": [],
+    "src/manager": [],
+    "src/manager/localization": [],
+    "src/manager/network": [],
+    "src/manager/routing": [],
+    "src/utils": []
+  }
+}

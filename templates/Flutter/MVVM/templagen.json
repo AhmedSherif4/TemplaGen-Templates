@@ -1,0 +1,35 @@
+{
+  "name": "MVVM Flutter",
+  "needSubDir": true,
+  "subDirNameCase": "snakeCase",
+  "foldersFilesNamesReplacer": [
+    {
+      "case": "snakeCase",
+      "nameToReplace": "key",
+      "useSubDirName": true
+    }
+  ],
+  "filesContentReplacer": [
+    {
+      "case": "snakeCase",
+      "nameToReplace": "<{key_sc}>",
+      "useSubDirName": true
+    },
+    {
+      "case": "pascalCase",
+      "nameToReplace": "<{key}>",
+      "useSubDirName": true
+    }
+  ],
+  "dirs": {
+    "model": [],
+    "model/data_source": [],
+    "model/model": [],
+    "view": [],
+    "view/screens": [],
+    "view/widgets": [],
+    "view_model": [],
+    "view_model/bloc": [],
+    "view_model/cubit": []
+  }
+}

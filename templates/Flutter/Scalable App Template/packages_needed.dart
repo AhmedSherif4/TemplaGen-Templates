@@ -1,0 +1,1 @@
+// shared_preferences, easy_localization, get_it, internet_connection_checker, http, flutter_phoenix, flutter_svg
