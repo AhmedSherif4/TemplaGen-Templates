@@ -1,6 +1,11 @@
 part of '<{key_sc}>_bloc.dart';
 
-@immutable
-abstract class <{key}>State {}
 
-class <{key}>Initial extends <{key}>State {}
+abstract class <{key}>State extends Equatable{
+    const <{key}>State();
+
+
+      @override
+  List<Object> get props => [];
+}
+

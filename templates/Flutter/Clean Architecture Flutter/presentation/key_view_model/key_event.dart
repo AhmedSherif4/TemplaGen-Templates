@@ -1,4 +1,5 @@
-part of '<{key_sc}>_bloc.dart';
+part of '../../<{key_sc}>.dart';
+
 
 
 abstract class <{key}>Event extends Equatable{

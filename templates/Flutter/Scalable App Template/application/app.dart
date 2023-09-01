@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
-import '../manager/routing/route_manager.dart';
 import '../manager/material_design/theme/theme_manager.dart';
+import '../manager/routing/route_manager.dart';
 import 'app_preferences.dart';
 import 'dependency_injection.dart';
 

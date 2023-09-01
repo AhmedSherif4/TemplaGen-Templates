@@ -10,7 +10,7 @@ part 'theme_state.dart';
 class ThemeCubit extends Cubit<ThemeState> {
   final AppPreferences _appPreferences;
 
-  ThemeCubit(this._appPreferences) : super(const ThemeInitial());
+  ThemeCubit(this._appPreferences) : super(const ThemeState());
 
   isDark(bool value) {
     _appPreferences.setThemeMode(value);

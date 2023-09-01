@@ -21,5 +21,21 @@
       "useSubDirName": true
     }
   ],
-  "dirs": {}
+  "dirs": {
+    "data": [],
+    "data/key_data_source": [],
+    "data/key_models": [],
+    "data/key_repository": [],
+    "domain": [],
+    "domain/key_base_repository": [],
+    "domain/key_entities": [],
+    "domain/key_usecases": [],
+    "presentation": [],
+    "presentation/key_screen": [],
+    "presentation/key_view_model": [],
+    "presentation/key_widgets": [],
+    "presentation/key_view_model/key_bloc.dart": [],
+    "presentation/key_view_model/key_event.dart": [],
+    "presentation/key_view_model/key_state.dart": []
+  }
 }
