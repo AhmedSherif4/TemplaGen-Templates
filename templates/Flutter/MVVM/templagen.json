@@ -28,8 +28,6 @@
     "view": [],
     "view/screens": [],
     "view/widgets": [],
-    "view_model": [],
-    "view_model/bloc": [],
-    "view_model/cubit": []
+    "view_model": []
   }
 }

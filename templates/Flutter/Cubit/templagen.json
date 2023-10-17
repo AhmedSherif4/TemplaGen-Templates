@@ -20,5 +20,6 @@
       "nameToReplace": "<{key}>",
       "useSubDirName": true
     }
-  ]
+  ],
+  "dirs": {}
 }
