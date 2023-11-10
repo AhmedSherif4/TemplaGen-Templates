@@ -14,6 +14,8 @@ part 'data/<{key_sc}>_data_source/<{key_sc}>_local_data_source.dart';
 part 'data/<{key_sc}>_data_source/<{key_sc}>_remote_data_source.dart';
 part 'data/<{key_sc}>_repository/<{key_sc}>_repository.dart';
 part 'domain/<{key_sc}>_base_repository/<{key_sc}>_base_repository.dart';
+part 'domain/<{key_sc}>_entity/<{key_sc}>_entity.dart';
+part 'domain/<{key_sc}>_model/<{key_sc}>_model.dart';
 part 'domain/<{key_sc}>_usecases/<{key_sc}>_usecase.dart';
 part 'presentation/<{key_sc}>_screen/<{key_sc}>_screen.dart';
 part 'presentation/<{key_sc}>_view_model/<{key_sc}>_bloc.dart';
